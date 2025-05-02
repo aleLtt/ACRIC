@@ -1,7 +1,6 @@
 # Test Injectivity in the initialization vector
 
-__DEFINITION: Injective in the Initialization Vector__
-
+__DEFINITION: Injective in the Initialization Vector__\
 A Cyclic Redundancy Check (CRC) function F(·, ·) is said to be injective in the initialization vector if, for every fixed message M, distinct initialization vectors produce
 distinct CRC values.\
 Formally: F is a CRC function injective in the initialization vector if, *for all M and given initialization vectors I, I' with I ≠ I′, then F(I, M) ≠ F(I′, M)*.
