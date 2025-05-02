@@ -1,4 +1,12 @@
-# Before running, you need to install the "crcmod" library
+# PYTHON SCRIPT TO EXPERIMENTALLY EVALUATE WHICH CRC FUNCTIONS PROVIDED IN THE crcmod LIBRARY ARE INJECTIVE IN THE INITIALIZATION VECTOR
+
+# We first fix a random message
+# Given a CRC function, we test all possible initialization vectors to compute the CRC value
+# Computed values are saved in a set object
+# We then check whether there is any CRC collision -> two different initialization vectors lead to the same CRC value 
+# We repeat the procedure for all available functions
+
+# !!!! Before running the script, ensure you have the crcmod library correctly installed on your system
 
 import random
 import crcmod.predefined
