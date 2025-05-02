@@ -5,6 +5,7 @@ A Cyclic Redundancy Check (CRC) function F(·, ·) is said to be injective in th
 distinct CRC values.\
 Formally: F is a CRC function injective in the initialization vector if, *for all M and given initialization vectors I, I' with I ≠ I′, then F(I, M) ≠ F(I′, M)*.
 
+&rarr; Injectivity in the initialization vector is a desired property within the ACRIC framework, as it lowers the ACRIC collision probability to the same as a random guess: *2^-n*, where *n* is the number of bits used. 
 
 We consider all CRC functions available from the [*crcmod*](https://crcmod.sourceforge.net) Python library and test their injectivity in the initialization vector.\
 To do so, we fix a random message M and compute its CRC value with the available functions.\
