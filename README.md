@@ -6,5 +6,6 @@ In this work, we propose **_Authenticated Cyclic Redundancy Integrity Check (ACR
 
 ## Contents
 This repository contains the source codes for ACRIC security assessment:
-- [ACRIC Test Injectivity](Test_injectivity): This folder contains the source file to check the *injectivity in the initialization vector* property of CRC functions.
-- [ACRIC Brute-Force Attack Resistance](ACRIC_BruteForce): This folder contains the source file for a software brute-force attack simulation against ACRIC.
+- [ACRIC Test Injectivity](Test_injectivity): This folder contains the source file to check the *Injectivity in the Initialization Vector* property of considered CRC functions.
+- [Test Integrity Protection](Test_integrity_protection): This folder contains the source file to assess ACRIC's integrity protection resistance against tampering attacks experimentally.
+- [Test Linearity](Test_linearity): This folder contains the source file to check whether the considered CRC functions are linear or not.
